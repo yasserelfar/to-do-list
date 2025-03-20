@@ -11,7 +11,6 @@ function App() {
       <h1>Hello in to do list app</h1>
       <Routes>
         <Route path="/home" element={<Home />} />
-        {/* <Route path="/task/:id" element={<TaskDetails />} /> */}
       </Routes>
     </Router>
   );
