@@ -1,0 +1,69 @@
+.continer{
+    /*bg-whiterounded-lgshadowp-6*/background-color: #282c34;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    padding: 6px;
+    box-shadow: 6px;
+    width: 50%;
+    color: white;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:3px;
+}
+.flex{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    
+}
+.t1{
+        display: flex;
+            justify-content: center;
+            gap: 5px;
+        
+}
+.green{
+margin: 3px;
+    color: green;
+    font-weight: 500;
+}
+
+.line-through{
+    font-weight: 700;
+    text-decoration: line-through;
+
+}
+.red{
+    color: red;
+    font-weight: 600;
+}
+.blue{
+    font-weight: 700;
+    color: blue;
+}
+.edit{
+    border-radius: 10px;
+    padding: 5px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.space{
+    width: 90%;
+    gap: 3px;
+}

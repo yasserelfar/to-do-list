@@ -1,7 +1,30 @@
 .App {
   text-align: center;
 }
-
+Link{
+  text-decoration: none;
+}
+body{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white !important;
+  padding: 10px;
+  font-size: large;
+}
+.Home-cont{
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: #282c34;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
